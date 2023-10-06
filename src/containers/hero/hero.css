@@ -224,13 +224,12 @@
 @media screen and (max-width: 767px) {
   .menu {
     padding: 10vw 15vw;
-    height: 100vh;
   }
 
   .navbar-mobile-menu {
     display: flex;
     padding-left: 62vw;
-    margin-bottom: 41vw;
+    margin-bottom: 45vw;
   }
 
   .menu-items {
@@ -239,6 +238,7 @@
 
   .hero-title {
     font-size: 8.2vw;
+    text-align: center;
   }
 
   .hero-description {
@@ -248,28 +248,76 @@
 
   .hero-wilson-image {
     height: 10vw;
-    top: 63vw;
+    top: 68vw;
   }
 
   .hero-triangle {
     height: 9.5vw;
-    top: 61vw;
+    top: 65vw;
     left: 28.5vw;
   }
 
   .hero-square {
     height: 7.5vw;
-    top: 61.7vw;
+    top: 65.7vw;
     right: 30vw;
   }
 
   .hero-circle {
     height: 8.5vw;
-    top: 45vw;
+    top: 49vw;
     left: 45.5vw;
   }
 
   .menu a {
     font-size: 3vw;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu {
+    padding: 0 20vw;
+    padding-top: 7vw;
+  }
+  
+  .menu a {
+    font-size: 3vw;
+  }
+
+  .hero-title {
+    font-size: 7vw;
+    text-align: center;
+  }
+
+  .hero-description {
+    font-size: 2vw;
+    padding: 0 4vw;
+  }
+
+  .menu-items {
+    margin-bottom: 20vw;
+  }
+
+  .hero-wilson-image {
+    height: 8vw;
+    top: 42vw;
+  }
+
+  .hero-triangle {
+    height: 7.5vw;
+    top: 41vw;
+    left: 30.5vw;
+  }
+
+  .hero-square {
+    height: 5.5vw;
+    top: 41.8vw;
+    right: 32vw;
+    }
+
+  .hero-circle {
+    height: 6.5vw;
+    top: 29vw;
+    left: 46.5vw;
   }
 }
