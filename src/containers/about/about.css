@@ -1,5 +1,60 @@
 .about{
-  height: 100vh;
+  height: 80vh;
   background-color: rgb(20, 20, 20);
+  padding: 2vw 6vw;
+  padding-top: 10vw;
+  display: flex;
+}
 
+.about-left {
+  width: 55%;
+  padding-right: 5vw;
+  padding-left: 6.5vw;
+}
+
+.about-title {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 3vw;
+  margin-bottom: 3vw;
+}
+
+.about-description {
+  color: white;
+  font-size: 1.25vw;
+  font-family: var(--font-family);
+  margin-bottom: 2vw;
+  font-weight: 300;
+  letter-spacing: 0.1px;
+}
+
+.about-right {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  padding-top: 7vw;
+}
+
+.about-photo {
+  height: 20vw;
+  border-radius: 2vw;
+  position: absolute;
+  z-index: 10;
+}
+
+.about-photo-bg {
+  height: 20.1vw;
+  width: 20.2vw;
+  position: relative;
+  top: -2vw;
+  right: -2vw;
+}
+
+.about-hi {
+  position: absolute;
+  height: 5vw;
+  z-index: 100;
+  padding-top: 19vw;
+  padding-right: 12vw;
 }

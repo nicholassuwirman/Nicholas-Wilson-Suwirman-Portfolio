@@ -1,6 +1,7 @@
 .menu {
   height: 100vh;
   padding: 2.9vw 20vw;
+  padding-bottom: 0vw;
   background-color: rgb(20, 20, 20);
   display: flex;
   align-items: center;
@@ -77,11 +78,11 @@
 }
 
 .menu .menu-background-pattern.pattern-2 {
-  background-position: -15% 30%;
+  background-position: -20% 30%;
 }
 
 .menu .menu-background-pattern.pattern-3 {
-  background-position: -25% 30%;
+  background-position: -30% 30%;
 }
 
 .navbar-mobile-menu {
@@ -228,7 +229,7 @@
 
   .navbar-mobile-menu {
     display: flex;
-    padding-left: 62vw;
+    padding-left: 67vw;
     margin-bottom: 45vw;
   }
 
@@ -237,12 +238,12 @@
   }
 
   .hero-title {
-    font-size: 8.2vw;
+    font-size: 8.35vw;
     text-align: center;
   }
 
   .hero-description {
-    font-size: 2.6vw;
+    font-size: 2.9vw;
     margin-top: 3vw;
   }
 
@@ -295,29 +296,29 @@
   }
 
   .menu-items {
-    margin-bottom: 20vw;
+    margin-bottom: 24vw;
   }
 
   .hero-wilson-image {
     height: 8vw;
-    top: 42vw;
+    top: 46vw;
   }
 
   .hero-triangle {
     height: 7.5vw;
-    top: 41vw;
+    top: 45vw;
     left: 30.5vw;
   }
 
   .hero-square {
     height: 5.5vw;
-    top: 41.8vw;
+    top: 45.8vw;
     right: 32vw;
     }
 
   .hero-circle {
     height: 6.5vw;
-    top: 29vw;
+    top: 33vw;
     left: 46.5vw;
   }
 }
