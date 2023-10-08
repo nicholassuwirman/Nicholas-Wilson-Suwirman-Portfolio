@@ -1,0 +1,56 @@
+.projects-container {
+  display: flex;
+  height: 100vh;
+  padding: 2vw 12vw;
+  background-color: rgb(20, 20, 20);
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects-mywork {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+
+.projects-mywork-description {
+  color: #B3B3B3;
+  font-family: var(--font-family);
+  font-size: 1vw;
+  padding-right: 30vw;
+  margin-bottom: 4vw;
+}
+
+.projects-card {
+  height: 40vw;
+  width: 75.5vw;
+  background-color: #101010;
+  border-radius: 2vw;
+  position: relative;
+  /*make the "shard" correspond to the card and not the
+  whole document*/
+}
+
+.projects-card::after {   /* the shard */
+  background: linear-gradient(
+    transparent,
+    mediumslateblue,
+    transparent
+  );
+  height: 70px;
+  width: 1px;
+  position: absolute;
+  left: 0px;
+  top: 65%;
+  content: "";
+  opacity: 0;
+  transition: top 600ms ease,
+              opacity 600ms ease;
+}
+
+.projects-card:hover:after {
+  top: 25%;
+  opacity: 1;
+}

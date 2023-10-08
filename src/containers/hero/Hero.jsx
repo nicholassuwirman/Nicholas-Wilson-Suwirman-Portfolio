@@ -25,7 +25,7 @@ const Hero = () => {
       <>
         <Link to="home" spy={true} smooth={true} duration={500} onMouseOver={() => handleMouseOver(0)} onMouseLeave={handleMouseLeave}>Home</Link>
         <Link to="about" spy={true} smooth={true} duration={500} onMouseOver={() => handleMouseOver(1)} onMouseLeave={handleMouseLeave}>About</Link>
-        <Link to="" spy={true} smooth={true} duration={500} onMouseOver={() => handleMouseOver(2)} onMouseLeave={handleMouseLeave}>Projects</Link>
+        <Link to="projects" spy={true} smooth={true} duration={500} onMouseOver={() => handleMouseOver(2)} onMouseLeave={handleMouseLeave}>Projects</Link>
         <Link to="" spy={true} smooth={true} duration={500} onMouseOver={() => handleMouseOver(3)} onMouseLeave={handleMouseLeave}>Contact</Link>
       </>
     )
