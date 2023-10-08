@@ -1,8 +1,9 @@
 .about{
-  height: 80vh;
+  height: auto;
   background-color: rgb(20, 20, 20);
   padding: 2vw 6vw;
-  padding-top: 10vw;
+  padding-top: 5vw;
+  padding-bottom: 7vw;
   display: flex;
 }
 
@@ -57,4 +58,103 @@
   z-index: 100;
   padding-top: 19vw;
   padding-right: 12vw;
+}
+
+.about-my-skills-text {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 1.5vw;
+  margin-bottom: 1.5vw;
+  margin-top: 3vw;
+}
+
+.about-function-skills-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8vw;
+}
+
+.about-function-dot {
+  height: 0.5vw;
+}
+
+.about-function-text {
+  color: #B3B3B3;
+  font-family: var(--font-family);
+  font-size: 1vw;
+  text-align: center;
+  margin-left: 0.4vw;
+}
+
+.about-skills-container {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .about {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 40vw;
+  }
+
+  .about-left {
+    width: 85%;
+  }
+
+  .about-title {
+    font-size: 6vw;
+    margin-bottom: 5vw;
+  }
+
+  .about-description {
+    font-size: 3.2vw;
+  }
+
+  .about-my-skills-text {
+    font-size: 3.8vw;
+    margin-top: 7vw;
+    margin-bottom: 3vw;
+  }
+
+  .about-function-text {
+    font-size: 2.7vw;
+    margin-left: 1vw;
+  }
+
+  .about-skills-container {
+    width: 70%;
+  }
+
+  .about-function-dot {
+    height: 1vw;
+  }
+
+  .about-right {
+    width: 100%;
+  }
+
+  .about-photo {
+    height: 45vw;
+    top: 10vw;
+    left: -10vw;
+    border-radius: 4vw;
+    position: relative;
+  }
+
+  .about-photo-bg {
+    width: 48vw;
+    height: 48vw;
+    top: 5vw;
+    left: 40vw;
+  }
+
+  .about-hi {
+    height: 11vw;
+    top: 34vw;
+    left: -54vw;
+    position: relative;
+  }
 }
