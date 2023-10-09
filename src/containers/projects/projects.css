@@ -1,6 +1,6 @@
 .projects-container {
   display: flex;
-  height: 100vh;
+  height: auto;
   padding: 2vw 12vw;
   background-color: rgb(20, 20, 20);
   justify-content: center;
@@ -24,13 +24,16 @@
 }
 
 .projects-card {
-  height: 40vw;
-  width: 75.5vw;
-  background-color: #101010;
+  height: 27vw;
+  width: 67vw;
+  padding: 4vw;
+  background-color: #191919;
+  display: flex;
   border-radius: 2vw;
   position: relative;
   /*make the "shard" correspond to the card and not the
   whole document*/
+  margin-bottom: 3vw;
 }
 
 .projects-card::after {   /* the shard */
@@ -53,4 +56,87 @@
 .projects-card:hover:after {
   top: 25%;
   opacity: 1;
+}
+
+.projects-card-left {
+  width: 40%;
+  padding-right: 4vw;
+}
+
+.projects-title {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 1.9vw;
+  margin-bottom: 2vw;
+}
+
+.projects-time {
+  color: white;
+  font-family: var(--font-family);
+  font-size: 0.9vw;
+  margin-bottom: 2vw;
+}
+
+.projects-description {
+  color: #B3B3B3;
+  font-family: var(--font-family);
+  font-size: 1vw;
+  margin-bottom: 9.3vw;
+}
+
+.projects-button {
+  display: inline-block;
+  padding: 0.8vw 1.6vw;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 1vw;
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.projects-button:hover {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+}
+
+
+
+.projects-github-logo {
+  height: 1.5vw;
+  display: block;
+}
+
+.projects-card-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.projects-github-container {
+  display: inline-block;
+  padding: 0.65vw;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: box-shadow 0.15s ease-in-out;
+  margin-left: 1vw;
+}
+
+.projects-github-container:hover {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.7);
+}
+
+.projects-card-right {
+  width: 60%;
+  background: radial-gradient(circle at 100% 80%, rgba(85, 2, 113, 1) 0%, rgba(15, 4, 28, 1) 35%);  padding: 3vw;
+  border-radius: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+}
+
+.projects-image {
+  height: 18vw;
 }
