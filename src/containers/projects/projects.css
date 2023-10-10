@@ -11,7 +11,7 @@
   color: white;
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 3vw;
+  font-size: 2.8vw;
   margin-bottom: 2vw;
 }
 
@@ -27,7 +27,7 @@
   height: 27vw;
   width: 67vw;
   padding: 4vw;
-  background-color: #191919;
+  background-color: #181818;
   display: flex;
   border-radius: 2vw;
   position: relative;

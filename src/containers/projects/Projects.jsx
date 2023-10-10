@@ -42,7 +42,7 @@ const Project = () => {
       liveLink={"https://nicholassuwirman.github.io/vr-website-vite/"}
       gitLink={"https://github.com/nicholassuwirman/vr-website-vite"}
       projectImage={vrProjects}/>
-      <ProjectCard title={"VR E-Commerce"} time={"2023 - Web Development"}  
+      <ProjectCard title={"Bakery E-Commerce"} time={"2023 - Web Development"}  
       description={"Developed an e-commerce landing page to showcase the latest VR product line, implementing a futuristic design approach while optimizing the brand identity. This transformation enhanced user engagement and facilitated a seamless shopping experience for potential customers."} 
       liveLink={"https://nicholassuwirman.github.io/vr-website-vite/"}
       gitLink={"https://github.com/nicholassuwirman/vr-website-vite"}
