@@ -61,6 +61,10 @@
 .projects-card-left {
   width: 40%;
   padding-right: 4vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
 }
 
 .projects-title {
@@ -82,7 +86,6 @@
   color: #B3B3B3;
   font-family: var(--font-family);
   font-size: 1vw;
-  margin-bottom: 9.3vw;
 }
 
 .projects-button {
@@ -139,4 +142,9 @@
 
 .projects-image {
   height: 18vw;
+  border-radius: 0.5vw;
+}
+
+.bakery-image-background {
+  background: rgb(244, 227, 182);
 }
