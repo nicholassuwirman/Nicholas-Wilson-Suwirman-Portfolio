@@ -148,3 +148,65 @@
 .bakery-image-background {
   background: rgb(244, 227, 182);
 }
+
+@media screen and (max-width: 1024px) {
+  .projects-mywork {
+    font-size: 6vw;
+    margin-bottom: 3vw;
+  }
+
+  .projects-card {
+    flex-direction: column;
+    height: 100vw;
+    padding-top: 6vw;
+    justify-content: space-between;
+  }
+
+  .projects-mywork-description {
+    padding-right: 8vw;
+    font-size: 2.5vw;
+    margin-bottom: 5vw;
+  }
+
+  .projects-title {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+
+  .projects-time {
+    font-size: 2.2vw;
+    margin-bottom: 3vw;
+  }
+
+  .projects-description {
+    font-size: 2.8vw;
+    margin-bottom: 5vw;
+  }
+
+  .projects-card-left {
+    width: 99%;
+    height: 50vw;
+  }
+
+  .projects-card-right{
+    width: 96%;
+    height: 40vw;
+  }
+  .projects-image {
+    height: 31vw;
+  }
+
+  .projects-button {
+    padding: 2vw 4vw;
+    font-size: 2.3vw;
+    margin-right: 1vw;
+  }
+
+  .projects-github-container {
+    padding: 2vw;
+  }
+
+  .projects-github-logo {
+    height: 2.7vw;
+  }
+}

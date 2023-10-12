@@ -47,7 +47,7 @@ const Project = () => {
       projectImage={vrProjects}/>
 
       <ProjectCard title={"Bakery E-Commerce"} time={"2023 - Web Development"}  
-      description={"Design a bright and inviting e-commerce platform for a bakery, aligning with the client's request for a clean and appealing look. The goal is to showcase the bakery's diverse product range in an attractive and user-friendly manner."} 
+      description={"Designed a bright and inviting e-commerce platform for a bakery, aligning with the client's request for a clean and appealing look. The goal is to showcase the bakery's diverse product range in an attractive and user-friendly manner."} 
       liveLink={"https://nicholassuwirman.github.io/Bear-Brownies-Website/"}
       gitLink={"https://github.com/nicholassuwirman/Bear-Brownies-Website"}
       projectImage={bakeryProjects}
