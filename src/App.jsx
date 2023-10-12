@@ -3,6 +3,7 @@ import './App.css'
 import Hero from './containers/hero/Hero'
 import About from './containers/about/about'
 import Project from './containers/projects/Projects'
+import Contact from './containers/contact/Contact'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Project />
+      <Contact />
     </>
   )
 }

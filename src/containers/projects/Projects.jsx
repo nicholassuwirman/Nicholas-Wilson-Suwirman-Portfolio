@@ -1,4 +1,3 @@
-import React from "react";
 import './projects.css';
 
 import githubLogo from '../../assets/github-line.png'
@@ -41,7 +40,7 @@ const Project = () => {
         engaging and user-friendly web experiences.
       </p>
       <ProjectCard title={"VR E-Commerce"} time={"2023 - Web Development"}  
-      description={"Developed an e-commerce landing page to showcase the latest VR product line, implementing a futuristic design approach while optimizing the brand identity. This transformation enhanced user engagement and facilitated a seamless shopping experience for potential customers."} 
+      description={"Developed a modern e-commerce landing page to showcase the latest VR product line, incorporating a sleek design for an improved user experience that aligns with the brand identity and makes shopping easy for potential customers."} 
       liveLink={"https://nicholassuwirman.github.io/vr-website-vite/"}
       gitLink={"https://github.com/nicholassuwirman/vr-website-vite"}
       projectImage={vrProjects}/>
