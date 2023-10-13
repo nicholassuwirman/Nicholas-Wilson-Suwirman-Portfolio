@@ -109,3 +109,9 @@
 .contact-logo-github {
   height: 1.1vw;
 }
+
+/*TODO: Make mobile section!*/
+
+@media screen and (max-width: 1024px) {
+
+}
