@@ -114,6 +114,11 @@
 
 @media screen and (max-width: 1024px) {
   .contact-container {
-    
+    padding-top: 10vw;
+  }
+
+  .contact-card {
+    height: 40vw;
+
   }
 }
