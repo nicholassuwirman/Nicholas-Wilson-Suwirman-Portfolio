@@ -115,10 +115,61 @@
 @media screen and (max-width: 1024px) {
   .contact-container {
     padding-top: 10vw;
+    height: auto;
+    padding-bottom: 15vw;
   }
 
   .contact-card {
-    height: 40vw;
+    height: 70vw;
+  }
 
+  .contact-title {
+    font-size: 5.1vw;
+    margin-bottom: 2vw;
+  }
+
+  .contact-card-main {
+    width: 80%;
+  }
+
+  .contact-email-button {
+    padding: 1.5vw 2vw;
+    font-size: 2.5vw;
+    border-radius: 1vw;
+  }
+
+  .contact-logo-button {
+    padding: 1.3vw;
+    border-radius: 1vw;
+    margin-left: 1.5vw;
+  }
+
+  .contact-email-logo {
+    height: 3.7vw;
+  }
+
+  .contact-logo-image {
+    height: 3.7vw;
+  }
+  .contact-logo-github {
+    height: 3.5vw;
+  }
+
+  .contact-logo-linkedin {
+    height: 3.3vw;
+  }
+
+  .contact-description {
+    font-size: 2.8vw;
+    margin-bottom: 4vw;
+  }
+
+  .ellipse-left {
+    top: 10vw;
+  }
+
+  .ellipse-right {
+    top: 71vw;
+    left: 77.1vw;
   }
 }
