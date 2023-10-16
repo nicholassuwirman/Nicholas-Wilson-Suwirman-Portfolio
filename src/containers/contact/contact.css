@@ -61,7 +61,7 @@
 }
 
 .contact-email-logo {
-  height: 1.2vw;
+  height: 1.4vw;
   margin-right: 0.5vw;
 }
 
@@ -74,7 +74,7 @@
   border-radius: 0.5vw;
   color: white;
   font-family: var(--font-family);
-  font-size: 0.85vw;
+  font-size: 0.9vw;
   transition: box-shadow 0.15s ease-in-out;
   align-items: center;
   cursor: pointer;
@@ -99,15 +99,15 @@
 }
 
 .contact-logo-image {
-  height: 1.2vw;
+  height: 1.4vw;
 }
 
 .contact-logo-linkedin {
-  height: 1vw;
+  height: 1.2vw;
 }
 
 .contact-logo-github {
-  height: 1.1vw;
+  height: 1.5vw;
 }
 
 /*TODO: Make mobile section!*/
@@ -116,7 +116,7 @@
   .contact-container {
     padding-top: 10vw;
     height: auto;
-    padding-bottom: 15vw;
+    padding-bottom: 25vw;
   }
 
   .contact-card {
@@ -124,7 +124,7 @@
   }
 
   .contact-title {
-    font-size: 5.3vw;
+    font-size: 5.7vw;
     margin-bottom: 2vw;
   }
 
@@ -153,7 +153,7 @@
   }
 
   .contact-logo-github {
-    height: 3.5vw;
+    height: 3.9vw;
   }
 
   .contact-logo-linkedin {
