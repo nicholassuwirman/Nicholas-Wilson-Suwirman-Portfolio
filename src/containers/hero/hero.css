@@ -172,6 +172,10 @@
 
 .hero-text-container {
   margin-top: 6vw;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text inside */
 }
 
 .hero-title {
@@ -181,6 +185,7 @@
   font-size: 3.7vw;
   margin-top: 2.5vw;
   transition: opacity 0.15s ease-in-out;
+  white-space: nowrap
 }
 .menu-items:hover ~ .hero-text-container .hero-title {
   opacity: 0.5;
