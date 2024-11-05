@@ -249,6 +249,7 @@
   .hero-title {
     font-size: 8.35vw;
     text-align: center;
+    white-space: normal;
   }
 
   .hero-description {
@@ -298,6 +299,7 @@
   .hero-title {
     font-size: 7vw;
     text-align: center;
+    white-space: normal;
   }
 
   .hero-description {
