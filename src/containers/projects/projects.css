@@ -149,6 +149,10 @@
   background: rgb(244, 227, 182);
 }
 
+.gauss-image-background {
+  background: black;
+}
+
 @media screen and (max-width: 1024px) {
   .projects-mywork {
     font-size: 6vw;

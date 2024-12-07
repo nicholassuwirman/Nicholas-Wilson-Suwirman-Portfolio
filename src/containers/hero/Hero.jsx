@@ -24,7 +24,7 @@ const Hero = () => {
     return (
       <>
         <Link to="home" spy={true} smooth={true} duration={500} onMouseOver={() => handleMouseOver(0)} onMouseLeave={handleMouseLeave}>Home</Link>
-        <Link to="about" spy={true} offset={-44} smooth={true} duration={500} onMouseOver={() => handleMouseOver(1)} onMouseLeave={handleMouseLeave}>About</Link>
+        <Link to="about" spy={true} offset={-10} smooth={true} duration={500} onMouseOver={() => handleMouseOver(1)} onMouseLeave={handleMouseLeave}>About</Link>
         <Link to="projects" spy={true} smooth={true} duration={750} onMouseOver={() => handleMouseOver(2)} onMouseLeave={handleMouseLeave}>Projects</Link>
         <Link to="contact" spy={true} offset={25} smooth={true} duration={1000} onMouseOver={() => handleMouseOver(3)} onMouseLeave={handleMouseLeave}>Contact</Link>
       </>
@@ -55,8 +55,8 @@ const Hero = () => {
       </div>
       <div className="hero-text-container">
         <p className="hero-title">Hi, I'm Nicholas <span className="hero-title-wilson">Wilson</span>  Suwirman</p>
-        <p className="hero-description">I'm an aspiring CS student who's deeply passionate about front-end web development. 
-        Dedicated to creating engaging and seamless user experiences through clean and innovative web design.
+        <p className="hero-description">I'm an aspiring CS student based in Germany who's passionate about front-end web development. 
+        Focused on designingwebsites that are visually appealing, user-friendly and most importantly, functional.
         </p>
       </div>
       <div className={`menu-background-pattern pattern-${activeIndex !== null ? activeIndex : ''}`}></div>

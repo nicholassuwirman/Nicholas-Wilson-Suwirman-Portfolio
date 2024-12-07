@@ -22,13 +22,10 @@ const About = () => {
         <p className="about-title">About me</p>
         <p className="about-description">
           Hello there! My name is Wilson and I'm currently in my second semester at 
-          Hochschule Darmstadt, studying Computer Science. My coursework has centered 
-          around C++, particularly Object-Oriented Programming.
+          Hochschule Darmstadt, studying Computer Science. I currently work on the Gauss project team, developing a new website for our electric superbike project.
         </p>
         <p className="about-description">
-          Over my summer break, I developed a strong passion for front-end web development and 
-          honed my skills in creating engaging and responsive websites. I love blending creativity 
-          with functionality to deliver delightful user experiences.
+        Over summer break, driven by a fear of missing out, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to React, JavaScript, Vite, Tailwind, Vercel, everything I could find. I loved it, and now I keep an eye out for new front-end tech, especially with new JS frameworks popping out pretty much everyday.
         </p>
         <p className="about-my-skills-text">My skills</p>
         <div className="about-skills-container">
@@ -36,15 +33,17 @@ const About = () => {
             <Skills text = {"C++"} />
             <Skills text = {"HTML"} />
             <Skills text = {"CSS"} />
-            <Skills text = {"JavaScript"} />
+            <Skills text = {"Tailwind CSS"} />
           </div>
           <div className="about-skills-middle">
+          <Skills text = {"JavaScript"} />
             <Skills text = {"JSX"} />
             <Skills text = {"React"} />
             <Skills text = {"Vite"} />
-            <Skills text = {"Git"} />
           </div>
           <div className="about-skills-right">
+            <Skills text = {"Vercel"} />
+            <Skills text = {"Git"} />
             <Skills text = {"GitHub"} />
           </div>
         </div>

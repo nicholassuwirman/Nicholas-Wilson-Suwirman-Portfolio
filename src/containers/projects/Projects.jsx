@@ -3,6 +3,7 @@ import './projects.css';
 import githubLogo from '../../assets/github-line.png'
 import vrProjects from '../../assets/projects-vr-2.png'
 import bakeryProjects from '../../assets/projects-bakery-2.png'
+import gaussProjects from '../../assets/projects-gauss.png'
 
 const ProjectCard = ({title, time, description, liveLink, gitLink, projectImage, customClassName}) => {
   return (
@@ -34,19 +35,24 @@ const Project = () => {
     <div className="projects-container" id="projects">
       <p className="projects-mywork">My work</p>
       <p className="projects-mywork-description">
-        Here's a glimpse of some of my recent and exciting projects. 
-        Each of them reflects my focus on transforming design into reality, 
-        using a diverse range of front-end technologies to create 
-        engaging and user-friendly web experiences.
+        Here are some of my recent projects. 
+        Each one demonstrates how my skills have grown as I continue adapting to new front-end technologies.
       </p>
+      <ProjectCard title={"Gauss Website"} time={"2024 - Web Development"}  
+      description={"I led the complete redesign and development of Gauss's website to better showcase their electric motorcycles. (Work in progress)"} 
+      liveLink={"https://gauss-webseite.vercel.app/"}
+      gitLink={"https://github.com/nicholassuwirman/Gauss-Website"}
+      customClassName={"gauss-image-background"}
+      projectImage={gaussProjects}/>
+
       <ProjectCard title={"VR E-Commerce"} time={"2023 - Web Development"}  
-      description={"Developed a modern e-commerce landing page to showcase the latest VR product line, incorporating a sleek design for an improved user experience that aligns with the brand identity and makes shopping easy for potential customers."} 
+      description={"Developed a modern e-commerce landing page to showcase the latest VR product line."} 
       liveLink={"https://nicholassuwirman.github.io/vr-website-vite/"}
       gitLink={"https://github.com/nicholassuwirman/vr-website-vite"}
       projectImage={vrProjects}/>
 
       <ProjectCard title={"Bakery E-Commerce"} time={"2023 - Web Development"}  
-      description={"Designed a bright and inviting e-commerce platform for a bakery, aligning with the client's request for a clean and appealing look. The goal is to showcase the bakery's diverse product range in an attractive and user-friendly manner."} 
+      description={"Designed and built a bright and inviting e-commerce platform for a bakery, aligning with the client's request for a clean and appealing look."} 
       liveLink={"https://nicholassuwirman.github.io/Bear-Brownies-Website/"}
       gitLink={"https://github.com/nicholassuwirman/Bear-Brownies-Website"}
       projectImage={bakeryProjects}
