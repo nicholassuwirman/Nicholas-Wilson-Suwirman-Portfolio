@@ -25,7 +25,7 @@ const About = () => {
           Hochschule Darmstadt, studying Computer Science. I currently work on the Gauss project team, developing a new website for our electric superbike project.
         </p>
         <p className="about-description">
-        Over summer break, driven by a fear of missing out, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to React, JavaScript, Vite, Tailwind, Vercel, everything I could find. I loved it, and now I keep an eye out for new front-end tech, especially with new JS frameworks popping out pretty much everyday.
+        Over the summer break, driven by a fear of missing out, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to JavaScript, React, Vite, Tailwind, Vercel, everything I could find. I loved it, and now I keep an eye out for new front-end tech, especially with new JS frameworks popping out pretty much everyday.
         </p>
         <p className="about-my-skills-text">My skills</p>
         <div className="about-skills-container">
