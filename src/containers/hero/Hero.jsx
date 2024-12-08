@@ -56,7 +56,7 @@ const Hero = () => {
       <div className="hero-text-container">
         <p className="hero-title">Hi, I'm Nicholas <span className="hero-title-wilson">Wilson</span>  Suwirman</p>
         <p className="hero-description">I'm an aspiring CS student based in Germany. I like 
-        designing websites that are visually appealing, user-friendly and most importantly, functional.
+        designing and building websites that are visually appealing, user-friendly and most importantly, functional.
         </p>
       </div>
       <div className={`menu-background-pattern pattern-${activeIndex !== null ? activeIndex : ''}`}></div>

@@ -45,6 +45,7 @@ const About = () => {
             <Skills text = {"Vercel"} />
             <Skills text = {"Git"} />
             <Skills text = {"GitHub"} />
+            <Skills text = {"Figma"} />
           </div>
         </div>
       </div>
