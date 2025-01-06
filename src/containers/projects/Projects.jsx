@@ -41,7 +41,7 @@ const Project = () => {
       <ProjectCard title={"Gauss Website"} time={"2024 - Web Development"}  
       description={"I led the complete redesign and development of Gauss's website to better showcase their electric motorcycles. (Work in progress)"} 
       liveLink={"https://gauss-webseite.vercel.app/"}
-      gitLink={"https://github.com/nicholassuwirman/Gauss-Website"}
+      gitLink={"https://github.com/nicholassuwirman/Gauss-Webseite"}
       customClassName={"gauss-image-background"}
       projectImage={gaussProjects}/>
 
