@@ -47,6 +47,12 @@ const About = () => {
             <Skills text = {"GitHub"} />
             <Skills text = {"Figma"} />
           </div>
+          <div className="about-skills-right">
+            <Skills text = {"GSAP"} />
+            <Skills text = {"HandBrake"} />
+            <Skills text = {"GIMP"} />
+
+          </div>
         </div>
       </div>
       <div className="about-right">
