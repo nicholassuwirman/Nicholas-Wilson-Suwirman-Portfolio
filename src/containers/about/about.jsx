@@ -22,7 +22,7 @@ const About = () => {
         <p className="about-title">About me</p>
         <p className="about-description">
           Hello there! My name is Wilson and I'm currently in my second semester at 
-          Hochschule Darmstadt, studying Computer Science. I currently work on the Gauss project team, developing a new website for our electric superbike project.
+          Hochschule Darmstadt, studying computer science. I currently work on the Gauss project team, developing a new website for our electric superbike project and also on the DreamBridge team, making a new website that uses multiple API to support students from the media department.
         </p>
         <p className="about-description">
         Over the summer break, driven by a fear of missing out, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to JavaScript, React, Vite, Tailwind, Vercel, everything I could find. I loved it, and now I keep an eye out for new front-end tech, especially with new JS frameworks popping out pretty much everyday.
@@ -39,7 +39,7 @@ const About = () => {
           <Skills text = {"JavaScript"} />
             <Skills text = {"JSX"} />
             <Skills text = {"React"} />
-            <Skills text = {"Vite"} />
+            <Skills text = {"Next.js"} />
           </div>
           <div className="about-skills-right">
             <Skills text = {"Vercel"} />
@@ -49,9 +49,9 @@ const About = () => {
           </div>
           <div className="about-skills-right">
             <Skills text = {"GSAP"} />
-            <Skills text = {"HandBrake"} />
             <Skills text = {"GIMP"} />
-
+            <Skills text = {"Supabase"} />
+            <Skills text = {"UI/UX"} />
           </div>
         </div>
       </div>

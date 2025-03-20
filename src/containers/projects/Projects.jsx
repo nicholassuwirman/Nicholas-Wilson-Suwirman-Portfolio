@@ -4,6 +4,7 @@ import githubLogo from '../../assets/github-line.png'
 import vrProjects from '../../assets/projects-vr-2.png'
 import bakeryProjects from '../../assets/projects-bakery-2.png'
 import gaussProjects from '../../assets/projects-gauss.png'
+import dreambridgeHero from '../../assets/dreambridge-hero.png'
 
 const ProjectCard = ({title, time, description, liveLink, gitLink, projectImage, customClassName}) => {
   return (
@@ -29,7 +30,22 @@ const ProjectCard = ({title, time, description, liveLink, gitLink, projectImage,
     </div>
   )
 }
-
+const ProjectCardDreamBridge = ({title, time, description, liveLink, gitLink, projectImage, customClassName}) => {
+  return (
+    <div className="projects-card">
+      <div className="projects-card-left">
+        <div>
+          <p className="projects-title">{title}</p>
+          <p className="projects-time">{time}</p>
+          <p className="projects-description">{description}</p>
+        </div>
+      </div>
+      <div className={`projects-card-right ${customClassName}`}>
+        <img className="projects-image" src={projectImage} />
+      </div>
+    </div>
+  )
+}
 const Project = () => {
   return (
     <div className="projects-container" id="projects">
@@ -38,6 +54,13 @@ const Project = () => {
         Here are some of my recent projects. 
         Each one demonstrates how my skills have grown as I continue adapting to new front-end technologies.
       </p>
+      <ProjectCardDreamBridge title={"Dreambridge Website"} time={"2025 - Web Development"}  
+      description={"I am working on the DreamBridge team to develop their website, which integrates an API to later support media students. (Work in progress)"} 
+      liveLink={"https://gauss-webseite.vercel.app/"}
+      gitLink={"https://github.com/nicholassuwirman/Gauss-Webseite"}
+      customClassName={"dreambridge-image-background"}
+      projectImage={dreambridgeHero}/>
+
       <ProjectCard title={"Gauss Website"} time={"2024 - Web Development"}  
       description={"I led the complete redesign and development of Gauss's website to better showcase their electric motorcycles. (Work in progress)"} 
       liveLink={"https://gauss-webseite.vercel.app/"}

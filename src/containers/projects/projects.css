@@ -153,6 +153,10 @@
   background: black;
 }
 
+.dreambridge-image-background {
+  background: rgb(12, 12, 12);
+}
+
 @media screen and (max-width: 1024px) {
   .projects-mywork {
     font-size: 6vw;
