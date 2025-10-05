@@ -21,7 +21,7 @@ const About = () => {
       <div className="about-left">
         <p className="about-title">About me</p>
         <p className="about-description">
-          Hello there! My name is Wilson and I'm currently in my third semester at 
+          Hello there! My name is Wilson and I'm currently in my fourth semester at 
           Hochschule Darmstadt, studying computer science. I currently work on the Gauss project team, developing a new website for our electric superbike project and also on the DreamBridge team, making a new website that uses multiple API to support students from the media department.
         </p>
         <p className="about-description">
@@ -43,14 +43,14 @@ const About = () => {
           </div>
           <div className="about-skills-right">
             <Skills text = {"Vercel"} />
-            <Skills text = {"Git"} />
             <Skills text = {"GitHub"} />
             <Skills text = {"Figma"} />
+            <Skills text = {"GSAP"} />
           </div>
           <div className="about-skills-right">
-            <Skills text = {"GSAP"} />
             <Skills text = {"GIMP"} />
             <Skills text = {"Supabase"} />
+            <Skills text = {"PostgreSQL"} />
             <Skills text = {"UI/UX"} />
           </div>
         </div>
