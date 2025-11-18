@@ -55,7 +55,7 @@ const Project = () => {
         Each one demonstrates how my skills have grown as I continue adapting to new front-end technologies.
       </p>
       <ProjectCardDreamBridge title={"Dreambridge Website"} time={"2025 - Web Development"}  
-      description={"I am working on the DreamBridge team to develop their website, which integrates APIs to later support master students in the media department. (Work in progress)"} 
+      description={"I am working on the DreamBridge team to develop their website, which integrates Scenario API to later support master students in the media department. Dreambridge will let them generate images, videos, and also train their own AI model (Work in progress)"} 
       liveLink={"https://gauss-webseite.vercel.app/"}
       gitLink={"https://github.com/nicholassuwirman/Gauss-Webseite"}
       customClassName={"dreambridge-image-background"}
