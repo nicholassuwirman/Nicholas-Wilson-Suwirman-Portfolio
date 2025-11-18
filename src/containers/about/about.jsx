@@ -36,10 +36,16 @@ const About = () => {
             <Skills text = {"Tailwind CSS"} />
           </div>
           <div className="about-skills-middle">
-          <Skills text = {"JavaScript"} />
-            <Skills text = {"JSX"} />
+            <Skills text = {"JavaScript"} />
+            <Skills text = {"Typescript"} />
             <Skills text = {"React"} />
             <Skills text = {"Next.js"} />
+          </div>
+          <div className="about-skills-middle">
+            <Skills text = {"PostgreSQL"} />
+            <Skills text = {"Supabase"} />
+            <Skills text = {"Prisma ORM"} />
+            <Skills text = {"PHP"} />
           </div>
           <div className="about-skills-right">
             <Skills text = {"Vercel"} />
@@ -49,8 +55,7 @@ const About = () => {
           </div>
           <div className="about-skills-right">
             <Skills text = {"GIMP"} />
-            <Skills text = {"Supabase"} />
-            <Skills text = {"PostgreSQL"} />
+            <Skills text = {"React Native"} />
             <Skills text = {"UI/UX"} />
           </div>
         </div>
