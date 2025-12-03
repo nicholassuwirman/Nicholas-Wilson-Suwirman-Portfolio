@@ -53,11 +53,6 @@ const About = () => {
             <Skills text = {"Figma"} />
             <Skills text = {"GSAP"} />
           </div>
-          <div className="about-skills-right">
-            <Skills text = {"GIMP"} />
-            <Skills text = {"React Native"} />
-            <Skills text = {"UI/UX"} />
-          </div>
         </div>
       </div>
       <div className="about-right">
