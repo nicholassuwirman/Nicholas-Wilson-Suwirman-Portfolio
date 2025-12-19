@@ -39,19 +39,19 @@ const About = () => {
             <Skills text = {"JavaScript"} />
             <Skills text = {"Typescript"} />
             <Skills text = {"React"} />
-            <Skills text = {"Next.js"} />
+            <Skills text = {"Node.js"} />
           </div>
           <div className="about-skills-middle">
             <Skills text = {"PostgreSQL"} />
             <Skills text = {"Supabase"} />
             <Skills text = {"Prisma ORM"} />
-            <Skills text = {"PHP"} />
+            <Skills text = {"Next.js"} />
           </div>
           <div className="about-skills-right">
+            <Skills text = {"Express.js"} />
+            <Skills text = {"PHP"} />
             <Skills text = {"Vercel"} />
-            <Skills text = {"GitHub"} />
-            <Skills text = {"Figma"} />
-            <Skills text = {"GSAP"} />
+            <Skills text = {"Gitlab"} />
           </div>
         </div>
       </div>
