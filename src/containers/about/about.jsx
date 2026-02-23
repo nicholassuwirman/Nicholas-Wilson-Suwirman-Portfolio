@@ -22,10 +22,10 @@ const About = () => {
         <p className="about-title">About me</p>
         <p className="about-description">
           Hello there! My name is Wilson and I'm currently in my fourth semester at 
-          Hochschule Darmstadt, studying computer science. I currently work on the Gauss project team, developing a new website for our electric superbike project and also on the DreamBridge team, making a new website that uses multiple API to support students from the media department.
+          Hochschule Darmstadt, studying computer science. I currently work on the Gauss project team, developing a new website for our electric superbike project. I will also work at SAP starting from March, so I'm very excited about it!
         </p>
         <p className="about-description">
-        Over the summer break, driven by a fear of missing out, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to JavaScript, React, Vite, Tailwind, Vercel, everything I could find. I loved it, and now I keep an eye out for new front-end tech, especially with new JS frameworks popping out pretty much everyday.
+        Over the summer break, driven by a fear of missing out, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to JavaScript, React, Vite, Tailwind, Node.js, everything I could find. I liked it, and now I keep an eye out for new trends, especially with new JS libraries popping out pretty much everyday.
         </p>
         <p className="about-my-skills-text">My skills</p>
         <div className="about-skills-container">
@@ -50,7 +50,7 @@ const About = () => {
           <div className="about-skills-right">
             <Skills text = {"Express.js"} />
             <Skills text = {"PHP"} />
-            <Skills text = {"Vercel"} />
+            <Skills text = {"Vue"} />
             <Skills text = {"Gitlab"} />
           </div>
         </div>
