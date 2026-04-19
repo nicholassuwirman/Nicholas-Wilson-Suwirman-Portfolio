@@ -52,7 +52,7 @@ const Project = () => {
       <p className="projects-mywork">My work</p>
       <p className="projects-mywork-description">
         Here are some of my recent projects. 
-        Each one demonstrates how my skills have grown as I continue adapting to new front-end technologies.
+        With each project, I used more and more technologies!
       </p>
       <ProjectCardDreamBridge title={"Dreambridge Website"} time={"2025 - Web Development"}  
       description={"I am working on the DreamBridge team to develop their website, which integrates Scenario API to later support master students in the media department. Dreambridge will let them generate images, videos, and also train their own AI model (Work in progress)"} 

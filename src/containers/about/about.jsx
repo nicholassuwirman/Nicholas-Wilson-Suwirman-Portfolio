@@ -21,11 +21,12 @@ const About = () => {
       <div className="about-left">
         <p className="about-title">About me</p>
         <p className="about-description">
-          Hello there! My name is Wilson and I'm currently in my fourth semester at 
-          Hochschule Darmstadt, studying computer science. I currently work on the Gauss project team, developing a new website for our electric superbike project. I will also work at SAP starting from March, so I'm very excited about it!
+          Hello there! My name is Wilson and I'm currently in my fifth semester at 
+          Hochschule Darmstadt, studying computer science. I’m currently a full stack developer working student at SAP, where I work on internal tools used across the company.
         </p>
         <p className="about-description">
-        Over the summer break, driven by a fear of missing out, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to JavaScript, React, Vite, Tailwind, Node.js, everything I could find. I liked it, and now I keep an eye out for new trends, especially with new JS libraries popping out pretty much everyday.
+          During the summer of 2023, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to JavaScript, React, Tailwind, Node.js, everything I could find. 
+          I liked it, and like every developer, I’m always ready for the next Javascript framework.
         </p>
         <p className="about-my-skills-text">My skills</p>
         <div className="about-skills-container">
@@ -39,18 +40,18 @@ const About = () => {
             <Skills text = {"JavaScript"} />
             <Skills text = {"Typescript"} />
             <Skills text = {"React"} />
-            <Skills text = {"Node.js"} />
+            <Skills text = {"Vue"} />
           </div>
           <div className="about-skills-middle">
+            <Skills text = {"Node.js"} />
             <Skills text = {"PostgreSQL"} />
             <Skills text = {"Supabase"} />
-            <Skills text = {"Prisma ORM"} />
             <Skills text = {"Next.js"} />
           </div>
           <div className="about-skills-right">
             <Skills text = {"Express.js"} />
             <Skills text = {"PHP"} />
-            <Skills text = {"Vue"} />
+            <Skills text = {"Unit Testing"} />
             <Skills text = {"Gitlab"} />
           </div>
         </div>
