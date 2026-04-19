@@ -22,7 +22,7 @@ const About = () => {
         <p className="about-title">About me</p>
         <p className="about-description">
           Hello there! My name is Wilson and I'm currently in my fifth semester at 
-          Hochschule Darmstadt, studying computer science. I’m currently a full stack developer working student at SAP, where I work on internal tools used across the company.
+          Hochschule Darmstadt, studying computer science. I’m currently a full stack developer working student at SAP, where I work on a internal tool used across the company.
         </p>
         <p className="about-description">
           During the summer of 2023, I started with SuperSimpleDev's HTML & CSS tutorial, which quickly led to JavaScript, React, Tailwind, Node.js, everything I could find. 
