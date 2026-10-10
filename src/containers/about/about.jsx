@@ -21,7 +21,7 @@ const About = () => {
       <div className="about-left">
         <p className="about-title">About me</p>
         <p className="about-description">
-          Hello there! My name is Wilson and I'm currently in my fifth semester at 
+          Hello there! My name is Wilson and I'm currently in my sixth semester at 
           Hochschule Darmstadt, studying computer science. I’m currently a full stack developer working student at SAP, where I work on an internal tool used across the company.
         </p>
         <p className="about-description">
